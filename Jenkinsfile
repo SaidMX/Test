@@ -1,5 +1,11 @@
-node { 
-    stage('Stage 1') {
-        echo 'Picate la cola' 
+node {
+    stage('Build') {
+        echo 'Building....'
+    }
+    stage('Test') {
+        echo 'Testing....'
+    }
+    stage('Deploy') {
+        echo 'Deploying....'
     }
 }
